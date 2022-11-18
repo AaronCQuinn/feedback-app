@@ -5,7 +5,7 @@
   padding: 0;
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background-color: var(--black-coffee);
+  background-color: var(--jet);
 }
 
 :root {
@@ -14,4 +14,6 @@
   --glaucous: #6e7dabff;
   --royal-blue-light: #5762d5ff;
   --azure-x-11-web-color: #d1e3ddff;
+  --rich-black-fogra-29: #051014ff;
+  --jet: #2e2f2fff;
 }

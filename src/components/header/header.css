@@ -3,10 +3,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--independence);
+    background-color: var(--rich-black-fogra-29);
     color: var(--azure-x-11-web-color);
-    font-size: 4em;
-    padding: 2rem 0px;
+    font-size: 3em;
+    padding: 1rem 0px;
 }
 
 .cb-header-text {

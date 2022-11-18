@@ -1,0 +1,21 @@
+.cb-userInput-container {
+    margin-top: 20px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.cb-userInput {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--azure-x-11-web-color);
+    padding: 10px;
+    width: 50vw;
+    border-radius: 5px;
+}
+
+.cb-userInput-header {
+    background-color: var(--azure-x-11-web-color);
+}
