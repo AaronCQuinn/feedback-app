@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import FeedbackContext from '../context/FeedbackContext.jsx'
 import './ratingSelector.css'
 
 const RatingSelector = () => {
     let lowRating = 1;
     let highRating = 10;
     let ratingArray = [];
+
+    const {editFeedback} = useContext(FeedbackContext);
 
     for (let i = lowRating; i <= highRating; i++) {
         ratingArray.push(
