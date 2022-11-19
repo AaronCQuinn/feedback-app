@@ -12,6 +12,10 @@ const UserInput = () => {
             </div>
             <RatingSelector />
             
+            <div className='cb-userInput-input-group'>
+              <input type="text"/>
+              <input type="submit" className='btn'/>
+            </div>
         </div>
     </div>
   )

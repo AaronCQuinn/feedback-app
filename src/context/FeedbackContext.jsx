@@ -1,8 +1,8 @@
-import {React, createContext, useState} from 'react'
+import {createContext, useState} from 'react'
 
 const FeedbackContext = createContext();
 
-const FeedbackProvider = ({ children }) => {
+export const FeedbackProvider = ({ children }) => {
 
   let feedbackItems = [
     {
@@ -74,4 +74,4 @@ const FeedbackProvider = ({ children }) => {
   )
 }
 
-export default FeedbackProvider
+export default FeedbackContext

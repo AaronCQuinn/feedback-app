@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import FeedbackContext from '../context/FeedbackContext.jsx'
+import FeedbackContext from '../../context/FeedbackContext'
 import './ratingSelector.css'
 
 const RatingSelector = () => {
@@ -11,7 +11,7 @@ const RatingSelector = () => {
 
     for (let i = lowRating; i <= highRating; i++) {
         ratingArray.push(
-            <li className='cb-ratingSelector-li'>
+            <li className='cb-ratingSelector-li' key={i}>
                 <input type="radio" id={"num" + i} name="rating" value={i} />
                 <label htmlFor={"num" + i}>{i}</label>
             </li>

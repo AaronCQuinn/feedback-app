@@ -12,10 +12,41 @@
     justify-content: center;
     background-color: var(--azure-x-11-web-color);
     padding: 10px;
-    width: 50vw;
+    width: 40%;
     border-radius: 5px;
 }
 
 .cb-userInput-header {
     background-color: var(--azure-x-11-web-color);
+    text-align: center;
+}
+
+.cb-userInput-input-group {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(112, 112, 112);
+    background-color: var(--azure-x-11-web-color);
+    padding: 8px 10px;
+    justify-content: space-between;
+}
+
+input {
+    background-color: var(--azure-x-11-web-color);
+    border: none;
+    padding: 10px;
+    flex-grow: 1;
+    font-size: 16px;
+}
+
+input:focus {
+    border:none;
+    outline:none;
+}
+
+.btn {
+    color: var(--azure-x-11-web-color);
+    border: 0;
+    border-radius: 8px;
+    background-color: var(--rich-black-fogra-29);
 }
