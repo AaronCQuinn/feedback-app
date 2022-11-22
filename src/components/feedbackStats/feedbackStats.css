@@ -1,0 +1,22 @@
+.cb-feedbackStats-container {
+    margin-top: 20px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.cb-feedbackStats {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--azure-x-11-web-color);
+    padding: 10px;
+    width: 40%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.cb-feedbackStats-stats {
+    background-color: var(--azure-x-11-web-color);
+}
