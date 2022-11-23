@@ -1,0 +1,35 @@
+.cb-feedbackItems-container {
+    margin-top: 20px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.cb-feedbackItems-title {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    background-color: var(--azure-x-11-web-color);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.cb-feedbackItems-rating {
+    /* background-color: var(--azure-x-11-web-color); */
+    background-color: var(--rich-black-fogra-29);
+    color: var(--azure-x-11-web-color);
+    padding: 10px;
+    border-radius: 25px;
+    outline: var(--jet) solid 1px;
+    min-width: 2.25em;
+    min-height: 2.25em;
+    text-align: center;
+}
+
+.cb-feedbackItems-options {
+    display: flex;
+    background-color: var(--azure-x-11-web-color);
+    align-content: center;
+    text-align: center;
+    justify-content: space-between;
+}

@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../components/header/Header'
 import UserInput from '../components/userInput/UserInput'
 import FeedbackStats from '../components/feedbackStats/FeedbackStats'
+import FeedbackItemList from '../components/feedbackItemList/FeedbackItemList'
 
 const home = () => {
   return (
@@ -9,6 +10,7 @@ const home = () => {
       <Header />
       <UserInput />
       <FeedbackStats />
+      <FeedbackItemList />
     </>
   )
 }
