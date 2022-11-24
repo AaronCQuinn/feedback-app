@@ -1,17 +1,24 @@
-.cb-feedbackItems-container {
+.cb-feedbackItem-container {
     margin-top: 20px;
     width: 100vw;
     display: flex;
     justify-content: center;
 }
 
-.cb-feedbackItems-title {
+.cb-feedbackItem {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    border-radius: 25px;
+    background-color: var(--azure-x-11-web-color);
+}
+
+.cb-feedbackItem-title {
     display: flex;
     justify-content: space-between;
-    width: 40%;
-    background-color: var(--azure-x-11-web-color);
-    border-radius: 5px;
+    background-color: inherit;
     padding: 10px;
+    border-radius: 10px;
 }
 
 .cb-feedbackItems-rating {
@@ -32,4 +39,11 @@
     align-content: center;
     text-align: center;
     justify-content: space-between;
+}
+
+
+.cb-feedbackItem-body {
+    background-color: var(--azure-x-11-web-color);
+    border-radius: 0px 0px 10px 10px;
+    padding: 0px 10px 5px 10px;
 }

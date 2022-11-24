@@ -45,7 +45,7 @@ export const FeedbackProvider = ({ children }) => {
   }
 
   const addFeedback = (newFeedback) => {
-    setFeedback([...feedback, newFeedback]);
+    setFeedback([newFeedback, ...feedback]);
   }
 
   const updateFeedback = (item) => {
@@ -54,7 +54,7 @@ export const FeedbackProvider = ({ children }) => {
 
   const updateCurrentFeedback = async(id, newItem) => {
     // Map over the items. If id matches the one to update, spread both the item and newItem, if not leave it.
-    feedbackItems.map(item => item.id === id ? {...item, ...newItem} : item)
+    setFeedback(feedback.map(item => item.id === id ? { ...item, ...newItem } : item))
   }
 
   return (

@@ -4,10 +4,11 @@ import FeedbackContext from '../../context/FeedbackContext'
 
 const FeedbackStats = () => {
     const {feedback} = useContext(FeedbackContext);
-    let sum = 0;
+    let avgRating = 0;
     feedback.forEach(element => {
-        sum += element.rating;
+        avgRating += element.rating;
     })
+    avgRating /= feedback.length
 
     return (
         <div className='cb-feedbackStats-container'>
@@ -16,7 +17,7 @@ const FeedbackStats = () => {
                     Total Reviews: {feedback.length}
                 </div>
                 <div className='cb-feedbackStats-stats'>
-                    Average Rating: {sum / feedback.length}
+                    Average Rating: {Math.floor(avgRating)}
                 </div>
             </div>
         </div>
